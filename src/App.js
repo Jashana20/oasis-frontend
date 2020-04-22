@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import LoggedInMainPage from './components/LoggedInMainPage';
 import MainPage from './components/MainPage';
+import Account from './components/Account';
 
 class App extends React.Component{
   render(){
     return(
       <div>
-        <LoggedInMainPage />
+        <Account />
         <MainPage />
       </div>
     )
